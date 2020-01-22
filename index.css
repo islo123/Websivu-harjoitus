@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+main{
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front-display{
+    background-image: url("https://images.unsplash.com/photo-1577951930508-9b26cce01b4c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-position: center center;
+    background-size: cover;
+}
+.btn{
+    padding: 5px;
+    
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(43, 41, 41);
+    outline: solid rgb(128, 128, 211);
+    
+}
+input[type=email],[type=password],[type="text"]{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+header{
+     text-align: right;
+     position: sticky;
+     top: 0px;
+     background-color: rgba(100, 148, 237, 0.322);
+     padding: 15px;
+}
+header a{
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   
+   
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap:10px;
+}
+.maindiv1{
+   
+    align-self: end;
+}
+main a{
+    color: white;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+    color: rgb(202, 192, 192);
+}
+
+.a-color{
+    background-color: teal;
+}
